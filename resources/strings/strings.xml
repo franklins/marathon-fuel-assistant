@@ -1,0 +1,30 @@
+<strings>
+    <string id="AppName">Marathon Fuel</string>
+    <string id="cueModeTitle">Default plan</string>
+    <string id="modeTime">Time (hours:minutes)</string>
+    <string id="modeMiles">Miles</string>
+    <string id="kindDefault">Same as Default plan</string>
+    <string id="testModeTitle">Test mode</string>
+    <string id="testModePrompt">Time: 0:20 = 20 seconds. Miles: 4 = 0.4 miles.</string>
+    <string id="vibrateTitle">Vibrate on cue</string>
+    <string id="kind1Title">Cue 1 type</string>
+    <string id="kind2Title">Cue 2 type</string>
+    <string id="kind3Title">Cue 3 type</string>
+    <string id="kind4Title">Cue 4 type</string>
+    <string id="kind5Title">Cue 5 type</string>
+    <string id="kind6Title">Cue 6 type</string>
+    <string id="kind7Title">Cue 7 type</string>
+    <string id="kind8Title">Cue 8 type</string>
+    <string id="kind9Title">Cue 9 type</string>
+    <string id="kind10Title">Cue 10 type</string>
+    <string id="cue1Title">Cue 1</string>
+    <string id="cue2Title">Cue 2</string>
+    <string id="cue3Title">Cue 3</string>
+    <string id="cue4Title">Cue 4</string>
+    <string id="cue5Title">Cue 5</string>
+    <string id="cue6Title">Cue 6</string>
+    <string id="cue7Title">Cue 7</string>
+    <string id="cue8Title">Cue 8</string>
+    <string id="cue9Title">Cue 9</string>
+    <string id="cue10Title">Cue 10</string>
+</strings>

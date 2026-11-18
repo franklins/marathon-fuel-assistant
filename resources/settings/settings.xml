@@ -1,0 +1,149 @@
+<resources>
+    <properties>
+        <property id="cueMode" type="number">0</property>
+        <property id="testMode" type="boolean">false</property>
+        <property id="vibrate" type="boolean">true</property>
+        <property id="kind1" type="number">-1</property>
+        <property id="kind2" type="number">-1</property>
+        <property id="kind3" type="number">-1</property>
+        <property id="kind4" type="number">-1</property>
+        <property id="kind5" type="number">-1</property>
+        <property id="kind6" type="number">-1</property>
+        <property id="kind7" type="number">-1</property>
+        <property id="kind8" type="number">-1</property>
+        <property id="kind9" type="number">-1</property>
+        <property id="kind10" type="number">-1</property>
+        <property id="cue1" type="string">0:20 Maurten 160</property>
+        <property id="cue2" type="string">0:55 Maurten 100</property>
+        <property id="cue3" type="string">1:15 Salt tablet</property>
+        <property id="cue4" type="string">1:40 Maurten 100</property>
+        <property id="cue5" type="string">2:05 Maurten 160</property>
+        <property id="cue6" type="string">2:30 Salt tablet</property>
+        <property id="cue7" type="string"></property>
+        <property id="cue8" type="string"></property>
+        <property id="cue9" type="string"></property>
+        <property id="cue10" type="string"></property>
+        <property id="mile1" type="string">4 Maurten 160</property>
+        <property id="mile2" type="string">8 Maurten 100</property>
+        <property id="mile3" type="string">12 Salt tablet</property>
+        <property id="mile4" type="string">16 Maurten 100</property>
+        <property id="mile5" type="string">20 Maurten 160</property>
+        <property id="mile6" type="string">24 Salt tablet</property>
+        <property id="mile7" type="string"></property>
+        <property id="mile8" type="string"></property>
+    </properties>
+    <settings>
+        <setting propertyKey="@Properties.cueMode" title="@Strings.cueModeTitle">
+            <settingConfig type="list">
+                <listEntry value="0">@Strings.modeTime</listEntry>
+                <listEntry value="1">@Strings.modeMiles</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.testMode" title="@Strings.testModeTitle" prompt="@Strings.testModePrompt">
+            <settingConfig type="boolean" />
+        </setting>
+        <setting propertyKey="@Properties.vibrate" title="@Strings.vibrateTitle">
+            <settingConfig type="boolean" />
+        </setting>
+        <setting propertyKey="@Properties.kind1" title="@Strings.kind1Title">
+            <settingConfig type="list">
+                <listEntry value="-1">@Strings.kindDefault</listEntry>
+                <listEntry value="0">@Strings.modeTime</listEntry>
+                <listEntry value="1">@Strings.modeMiles</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.cue1" title="@Strings.cue1Title">
+            <settingConfig type="alphaNumeric" maxLength="40" />
+        </setting>
+        <setting propertyKey="@Properties.kind2" title="@Strings.kind2Title">
+            <settingConfig type="list">
+                <listEntry value="-1">@Strings.kindDefault</listEntry>
+                <listEntry value="0">@Strings.modeTime</listEntry>
+                <listEntry value="1">@Strings.modeMiles</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.cue2" title="@Strings.cue2Title">
+            <settingConfig type="alphaNumeric" maxLength="40" />
+        </setting>
+        <setting propertyKey="@Properties.kind3" title="@Strings.kind3Title">
+            <settingConfig type="list">
+                <listEntry value="-1">@Strings.kindDefault</listEntry>
+                <listEntry value="0">@Strings.modeTime</listEntry>
+                <listEntry value="1">@Strings.modeMiles</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.cue3" title="@Strings.cue3Title">
+            <settingConfig type="alphaNumeric" maxLength="40" />
+        </setting>
+        <setting propertyKey="@Properties.kind4" title="@Strings.kind4Title">
+            <settingConfig type="list">
+                <listEntry value="-1">@Strings.kindDefault</listEntry>
+                <listEntry value="0">@Strings.modeTime</listEntry>
+                <listEntry value="1">@Strings.modeMiles</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.cue4" title="@Strings.cue4Title">
+            <settingConfig type="alphaNumeric" maxLength="40" />
+        </setting>
+        <setting propertyKey="@Properties.kind5" title="@Strings.kind5Title">
+            <settingConfig type="list">
+                <listEntry value="-1">@Strings.kindDefault</listEntry>
+                <listEntry value="0">@Strings.modeTime</listEntry>
+                <listEntry value="1">@Strings.modeMiles</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.cue5" title="@Strings.cue5Title">
+            <settingConfig type="alphaNumeric" maxLength="40" />
+        </setting>
+        <setting propertyKey="@Properties.kind6" title="@Strings.kind6Title">
+            <settingConfig type="list">
+                <listEntry value="-1">@Strings.kindDefault</listEntry>
+                <listEntry value="0">@Strings.modeTime</listEntry>
+                <listEntry value="1">@Strings.modeMiles</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.cue6" title="@Strings.cue6Title">
+            <settingConfig type="alphaNumeric" maxLength="40" />
+        </setting>
+        <setting propertyKey="@Properties.kind7" title="@Strings.kind7Title">
+            <settingConfig type="list">
+                <listEntry value="-1">@Strings.kindDefault</listEntry>
+                <listEntry value="0">@Strings.modeTime</listEntry>
+                <listEntry value="1">@Strings.modeMiles</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.cue7" title="@Strings.cue7Title">
+            <settingConfig type="alphaNumeric" maxLength="40" />
+        </setting>
+        <setting propertyKey="@Properties.kind8" title="@Strings.kind8Title">
+            <settingConfig type="list">
+                <listEntry value="-1">@Strings.kindDefault</listEntry>
+                <listEntry value="0">@Strings.modeTime</listEntry>
+                <listEntry value="1">@Strings.modeMiles</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.cue8" title="@Strings.cue8Title">
+            <settingConfig type="alphaNumeric" maxLength="40" />
+        </setting>
+        <setting propertyKey="@Properties.kind9" title="@Strings.kind9Title">
+            <settingConfig type="list">
+                <listEntry value="-1">@Strings.kindDefault</listEntry>
+                <listEntry value="0">@Strings.modeTime</listEntry>
+                <listEntry value="1">@Strings.modeMiles</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.cue9" title="@Strings.cue9Title">
+            <settingConfig type="alphaNumeric" maxLength="40" />
+        </setting>
+        <setting propertyKey="@Properties.kind10" title="@Strings.kind10Title">
+            <settingConfig type="list">
+                <listEntry value="-1">@Strings.kindDefault</listEntry>
+                <listEntry value="0">@Strings.modeTime</listEntry>
+                <listEntry value="1">@Strings.modeMiles</listEntry>
+            </settingConfig>
+        </setting>
+        <setting propertyKey="@Properties.cue10" title="@Strings.cue10Title">
+            <settingConfig type="alphaNumeric" maxLength="40" />
+        </setting>
+    </settings>
+</resources>
